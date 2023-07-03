@@ -1,0 +1,48 @@
+﻿<Window x:Class="SchoolBus.Presentation.Views.MainView"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:SchoolBus.Presentation.Views" xmlns:viewmodels="clr-namespace:SchoolBus.Presentation.ViewModels" d:DataContext="{d:DesignInstance Type=viewmodels:MainViewModel}"
+        mc:Ignorable="d"
+        Title="MainView" Height="450" Width="800">
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="*"></ColumnDefinition>
+            <ColumnDefinition Width="6*"></ColumnDefinition>
+        </Grid.ColumnDefinitions>
+
+        <StackPanel Grid.Row="0" Orientation="Vertical">
+
+
+
+           
+
+            <Button
+           
+         
+            Content="Class"
+            Margin="40"
+           Command="{Binding ClassViewCommand}" Background="Orange" Foreground="Black" FontFamily="Elephant"/>
+
+
+            <Button
+           
+            Content="Student"
+            Margin="40"
+             Command="{Binding StudentViewCommand}" Background="YellowGreen" Foreground="Black" FontFamily="Elephant"/>
+
+
+            <Button
+           
+            
+            Content="Parent"
+            Margin="40"
+           Command="{Binding ParentViewCommand}" Background="LightGoldenrodYellow" Foreground="Black" FontFamily="Elephant"/>
+
+           
+        </StackPanel>
+
+        <ContentControl Grid.Column="1" Content="{Binding CurrentViewModel}"></ContentControl>
+    </Grid>
+</Window>

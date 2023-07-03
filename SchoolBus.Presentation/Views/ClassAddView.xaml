@@ -1,0 +1,31 @@
+﻿<Window x:Class="SchoolBus.Presentation.Views.ClassAddView"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:SchoolBus.Presentation.Views" xmlns:viewmodels="clr-namespace:SchoolBus.Presentation.ViewModels" d:DataContext="{d:DesignInstance Type=viewmodels:ClassAddViewModel}"
+        mc:Ignorable="d"
+        Title="ClassAddView" Height="450" Width="800">
+    <Grid Background="LightYellow">
+        <Grid.RowDefinitions>
+            <RowDefinition/>
+            <RowDefinition/>
+            <RowDefinition/>
+
+        </Grid.RowDefinitions>
+        <Label FontSize="50" HorizontalAlignment="Center" FontFamily="Elephant">Add Class</Label>
+        <Label Grid.Row="1" FontSize="20" HorizontalAlignment="Center" FontFamily="Elephant">Name</Label>
+        <TextBox Text="{Binding AddClass.Name}" Grid.Row="1" HorizontalAlignment="Center" VerticalAlignment="Bottom" Width="400"></TextBox>
+
+
+
+        <Button Grid.Row="4"
+
+    Content="Create Class"
+        Width="200"
+        Background="Orange"
+        Foreground="Black"
+    Margin="2,0"
+    Command="{Binding ClassCreateCommand}" />
+    </Grid>
+</Window>

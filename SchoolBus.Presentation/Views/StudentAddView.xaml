@@ -1,0 +1,46 @@
+﻿<Window x:Class="SchoolBus.Presentation.Views.StudentAddView"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:SchoolBus.Presentation.Views" xmlns:viewmodels="clr-namespace:SchoolBus.Presentation.ViewModels" d:DataContext="{d:DesignInstance Type=viewmodels:StudentAddViewModel}"
+        mc:Ignorable="d"
+        Title="StudentAddView" Height="450" Width="800">
+    <Grid Background="LightYellow">
+        <Grid.RowDefinitions>
+            <RowDefinition/>
+            <RowDefinition/>
+            <RowDefinition/>
+            <RowDefinition/>
+            <RowDefinition/>
+            <RowDefinition/>
+            <RowDefinition/>
+
+        </Grid.RowDefinitions>
+        <Label FontSize="50" HorizontalAlignment="Center" FontFamily="Elephant">Add Student</Label>
+        <Label Grid.Row="1" FontSize="20" HorizontalAlignment="Center" FontFamily="Elephant">FirstName</Label>
+        <TextBox Text="{Binding AddStudent.FirstName}" Grid.Row="1" HorizontalAlignment="Center" VerticalAlignment="Bottom" Width="400"></TextBox>
+        <Label Grid.Row="2" FontSize="20" HorizontalAlignment="Center" FontFamily="Elephant">LastName</Label>
+        <TextBox  Text="{Binding AddStudent.LastName}" Grid.Row="2" HorizontalAlignment="Center" VerticalAlignment="Bottom" Width="400"></TextBox>
+        <Label Grid.Row="3" FontSize="20" HorizontalAlignment="Center" FontFamily="Elephant">Home Adress</Label>
+        <TextBox Text="{Binding AddStudent.HomeAdress}" Grid.Row="3" HorizontalAlignment="Center" VerticalAlignment="Bottom" Width="400"></TextBox>
+
+        <Label Grid.Row="4" FontSize="20" HorizontalAlignment="Center" FontFamily="Elephant">Parent</Label>
+        <ComboBox Grid.Row="4" ItemsSource="{Binding Parents_}" SelectedItem="{Binding SelectParent}" VerticalAlignment="Center" Width="400"></ComboBox>
+
+
+        <Label Grid.Row="5" FontSize="20" HorizontalAlignment="Center" FontFamily="Elephant">Class</Label>
+        <ComboBox Grid.Row="5" ItemsSource="{Binding Classes_}" SelectedItem="{Binding SelectClass}" VerticalAlignment="Center" Width="400"></ComboBox>
+
+
+
+        <Button Grid.Row="6"
+
+    Content="Create Student"
+        Width="200"
+        Background="Orange"
+        Foreground="Black"
+    Margin="2,0"
+    Command="{Binding StudentCreateCommand}" />
+    </Grid>
+</Window>

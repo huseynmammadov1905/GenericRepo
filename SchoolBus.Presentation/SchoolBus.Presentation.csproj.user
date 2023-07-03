@@ -1,0 +1,67 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="Current" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup />
+  <ItemGroup>
+    <ApplicationDefinition Update="App.xaml">
+      <SubType>Designer</SubType>
+    </ApplicationDefinition>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Update="Views\ClassAddView.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Views\ClassEditView.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Views\ClassView.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Views\MainView.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Views\ParentAddView.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Views\ParentEditView.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Views\ParentView.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Views\StudentAddView.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Views\StudentView.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Page Update="Views\ClassAddView.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Views\ClassEditView.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Views\ClassView.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Views\MainView.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Views\ParentAddView.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Views\ParentEditView.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Views\ParentView.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Views\StudentAddView.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Views\StudentView.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,17 @@
+C:\Users\memme\source\repos\GeneticRepository\SchoolBus.Data\bin\Debug\net6.0\SchoolBus.Data.deps.json
+C:\Users\memme\source\repos\GeneticRepository\SchoolBus.Data\bin\Debug\net6.0\SchoolBus.Data.dll
+C:\Users\memme\source\repos\GeneticRepository\SchoolBus.Data\bin\Debug\net6.0\SchoolBus.Data.pdb
+C:\Users\memme\source\repos\GeneticRepository\SchoolBus.Data\obj\Debug\net6.0\SchoolBus.Data.csproj.AssemblyReference.cache
+C:\Users\memme\source\repos\GeneticRepository\SchoolBus.Data\obj\Debug\net6.0\SchoolBus.Data.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\memme\source\repos\GeneticRepository\SchoolBus.Data\obj\Debug\net6.0\SchoolBus.Data.AssemblyInfoInputs.cache
+C:\Users\memme\source\repos\GeneticRepository\SchoolBus.Data\obj\Debug\net6.0\SchoolBus.Data.AssemblyInfo.cs
+C:\Users\memme\source\repos\GeneticRepository\SchoolBus.Data\obj\Debug\net6.0\SchoolBus.Data.csproj.CoreCompileInputs.cache
+C:\Users\memme\source\repos\GeneticRepository\SchoolBus.Data\obj\Debug\net6.0\SchoolBus.Data.dll
+C:\Users\memme\source\repos\GeneticRepository\SchoolBus.Data\obj\Debug\net6.0\refint\SchoolBus.Data.dll
+C:\Users\memme\source\repos\GeneticRepository\SchoolBus.Data\obj\Debug\net6.0\SchoolBus.Data.pdb
+C:\Users\memme\source\repos\GeneticRepository\SchoolBus.Data\obj\Debug\net6.0\ref\SchoolBus.Data.dll
+C:\Users\memme\source\repos\GeneticRepository\SchoolBus.Data\bin\Debug\net6.0\SchoolBus.Data.runtimeconfig.json
+C:\Users\memme\source\repos\GeneticRepository\SchoolBus.Data\bin\Debug\net6.0\SchoolBus.Model.dll
+C:\Users\memme\source\repos\GeneticRepository\SchoolBus.Data\bin\Debug\net6.0\SchoolBus.Model.pdb
+C:\Users\memme\source\repos\GeneticRepository\SchoolBus.Data\obj\Debug\net6.0\SchoolBus.Data.csproj.CopyComplete
+C:\Users\memme\source\repos\GeneticRepository\SchoolBus.Data\obj\Debug\net6.0\SchoolBus.Data.genruntimeconfig.cache
